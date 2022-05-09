@@ -1,0 +1,49 @@
+@charset "ISO-8859-1";
+
+body {
+	width: 1200px;
+	margin: auto;
+	background-color: rgba(0, 0, 0, 0.7)
+}
+
+header {
+	background-color: rgba(0, 0, 0, 0.7);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+a {
+	text-decoration: none;
+	color: red;
+}
+
+h1 {
+	color: red;
+}
+
+label {
+	display: block;
+	width: 150px;
+	float: left;
+}
+
+.button {
+	margin-top: 20px;
+	background-color: red;
+	border-radius: 20px;
+	padding: 10px 20px;
+	color: white;
+	border: none;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+table {
+	margin: auto;
+	color: red
+}
+
+img {
+	max-width: 400px
+}
